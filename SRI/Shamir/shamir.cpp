@@ -99,7 +99,7 @@ ll gather(vector<ll>index, ll p)
         //cout<<boss<<";";
         boss=(boss*num)%p;
         cout<<boss<<" "; 
-        y=y+boss;
+        y=(y+boss)%p;
         
     }
     cout<<endl;
